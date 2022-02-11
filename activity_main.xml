@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181934"
+    tools:context=".MainActivity">
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo"
+    android:paddingLeft="76dp"
+    android:paddingTop="76dp"
+    >/</ImageView>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Email Address"
+android:textColor="#BFC1C7"
+android:textStyle="bold"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="300dp"
+    android:layout_marginLeft="70dp"
+    ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+
+        android:textColor="#FBFAFD"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:paddingBottom="80dp"
+
+        ></TextView>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Password"
+android:textColor="#BFC1C7"
+android:textStyle="bold"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="230dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="70dp"
+    ></TextView>
+    <EditText
+        android:id="@+id/plain_text_input"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:inputType="text"
+        android:textColor="#BFC1C7"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="265dp"
+        android:layout_marginLeft="65dp"
+
+
+        />
+    <EditText
+        android:id="@+id/plain_text_input_two"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:inputType="numberPassword"
+        android:textColor="#BFC1C7"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
+        android:layout_marginLeft="65dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#BFC1C7"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+       android:layout_centerInParent="true"
+       android:layout_marginBottom="110dp"
+        ></Button>
+<Button
+    android:id="@+id/home"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Home"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="8dp"
+    ></Button>
+    <Button
+        android:id="@+id/Library"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Library"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/home"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+
+        ></Button>
+
+
+  <Button
+      android:id="@+id/settings"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Save"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true"
+      android:layout_toRightOf="@id/Love"
+      android:layout_marginRight="8dp"
+      android:layout_marginBottom="16dp"
+      android:layout_marginTop="16dp"
+
+      ></Button>
+    <Button
+        android:id="@+id/Love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Love"
+        android:layout_alignParentBottom="true"
+       android:layout_toRightOf="@id/Library"
+
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+
+        ></Button>
+
+
+
+</RelativeLayout>
